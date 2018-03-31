@@ -1,0 +1,18 @@
+#pizza-order {
+  display: none;
+}
+
+body {
+  text-align: center;
+  background-image: url("https://cdn.instructables.com/FU2/T94S/GCI8KOY8/FU2T94SGCI8KOY8.LARGE.jpg");
+}
+
+h1 {
+  font-size: 100px;
+  font-style: italic;
+  background-color: white;
+}
+
+h2 {
+  color: white;
+}

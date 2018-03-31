@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Pizza-Shop</title>
+  </head>
+  <body>
+      <h1>Pizza, Pizza, Pizza!</h1>
+      <h2>Build Your Own:</h2>
+<div id="container">
+  <p><b>Choose Toppings and Size to custom build your own Pizza!</b></p>
+  <div id="choices">
+    <form id="form">
+      <div id="toppings">
+        <h4>Toppings</h4>
+        <p>
+          Toppings are an additional $.50 each.
+        </p>
+        <div class="toppings">
+          <label for="pepperoni">Pepperoni</label>
+          <input id="pepperoni" value="Pepperoni" name="toppings" type="checkbox"/>
+        </div>
+        <div class="toppings">
+          <label for="mushroom">Mushroom</label>
+          <input id="mushroom" value="Mushroom" name="toppings" type="checkbox"/>
+        </div>
+        <div class="toppings">
+          <label for="sausage">Sausage</label>
+          <input id="sausage" value="Sausage" name="toppings" type="checkbox"/>
+        </div>
+        <div class="toppings">
+          <label for="tomato">Fresh Tomato</label>
+          <input id="tomato" value="Tomato" name="toppings" type="checkbox"/>
+        </div>
+        <div class="toppings">
+          <label for="peppers">Peppers</label>
+          <input id="peppers" value="Peppers" name="toppings" type="checkbox"/>
+        </div>
+      </div>
+      <div id="size">
+        <h4>Please select the size of your pizza</h4>
+        <select id="pizza-size">
+          <option>Small</option>
+          <option>Medium</option>
+          <option>Large</option>
+        </select>
+      </div>
+      <br>
+      <div class="submit">
+        <button id="submit" type="submit">Submit</button>
+      </div>
+
+    </form>
+  </div>
+
+  <div id="pizza-order">
+    <h2>Here is the pizza you ordered:</h2>
+    <p><span class="order"></span></p>
+  </div>
+</div>
+  </body>
+</html>
