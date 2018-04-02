@@ -8,18 +8,18 @@ https://andyboggs.github.io/pizzashop/
 
 ## Description
 
-A simple webpage using Javascript, JQuery CSS, Bootstrap & HTML.
+A webpage exercise using Javascript, JQuery CSS, Bootstrap & HTML.
 
 ## Specifications:
 
 * It can add multiple toppings.
 * It can choose size of pizza.
 * It can combine size & topping choices and display result
-* It's supposed to list price as well but we're not there yet. 
+* It can combine price of size and toppings and display result
 
 ## Known Bugs
 
-Currently unable to get total pricing.  
+Can't get size price displayed in checkbox w/o throwing biz logic off so left it out. Also, if a plain pizza is ordred w/o toppings the word "with" is still listed.    
 
 ## Support and contact details
 
