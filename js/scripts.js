@@ -7,11 +7,11 @@ Pizza.prototype.totalPrice = function () {
   var total = 0;
 
   if (size === "Small") {
-    total += 6;
+    total += 7;
   } else if (size === "Medium") {
-    total += 8;
+    total += 9;
   } else if (size === "Large") {
-    total += 10;
+    total += 12;
   }
   return total;
 }
@@ -25,13 +25,10 @@ $(document).ready(function() {
     var toppings = $('input:checkbox[name=toppings]:checked');
     var toppingsArray = [];
     for(var i=0; i< toppings.length; i++){
-
       toppingsArray.push($(toppings[i]).val());
     }
 
     var newPizza = new Pizza(size, toppingsArray);
-
-
 
 
     $('#pizza-order').show();
